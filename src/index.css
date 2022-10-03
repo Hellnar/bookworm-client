@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f5f9;
+    padding: 10%;
+    font-family: 'Roboto Slab', serif;
+    color: #334155;
+}
+
+button {
+    font-family: 'Roboto Slab', serif;
+    outline: none;
+    border: none;
+    background-color: #8b5cf6;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    transition: 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #7c3aed;
+    transition: 0.2s;
+}
+
+input, textarea, select {
+    padding: 0.7rem;
+    border: 1px solid #f1f5f9;
+    border-radius: 4px;
+    outline: none;
+    color: #334155;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+}
